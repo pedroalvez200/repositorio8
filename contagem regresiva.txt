@@ -1,0 +1,9 @@
+import time
+
+print("Iniciando contagem regressiva")
+c = 10
+for c in range(c, 0, -1):
+    print(c)
+    time.sleep(1)
+
+print("BUM!")
